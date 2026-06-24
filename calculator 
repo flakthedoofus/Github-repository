@@ -1,0 +1,14 @@
+#calculator
+print("calculator, type first number, then hit enter, then enter your function, A is add, S is subtract, M is multiply, and D is divide, hit enter, last number, then enter to get your answer ")
+a=int(input( ))
+b=input( )
+c=int(input( ))
+if b=="A":
+   print(a+c)
+elif b=="S":
+    print(a-c)
+elif b=="M":
+	print(a*c)
+else:
+	b=="D"
+	print(a/c)
