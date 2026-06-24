@@ -1,0 +1,9 @@
+#what year the user will turn the inputted age
+print("this app will tell you the year you will turn whatever age you want")
+d=int(input("age:" ))
+a=input("name:" )
+b=int(input("birth year:" ))
+c=str(b+d)
+e=str(d)
+print(a+" you will be "+e)
+print("in the year "+c)
