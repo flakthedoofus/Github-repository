@@ -1,0 +1,7 @@
+#python.org ex3
+a=[1,1,2,3,5,8,13,21,34,55,89,4]
+for n in a:
+    if n <=5:
+        print(n)
+else:
+    print("done")
