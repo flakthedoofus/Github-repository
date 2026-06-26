@@ -1,0 +1,28 @@
+#from python.org ex2 
+print("enter any number and i will tell you if it's even or odd")
+I=int(input( ))#I=input
+M=I/2#M=math, will return a float
+M2=I//2# will return an integer rounded down
+#print(M) will always be >=
+#print(M2) will always be <= 
+if M>M2:
+    print("odd")
+else:
+    print("even")
+#extra1
+E=I/4
+E2=I//4
+if E==E2:
+    print("also a multiple of 4")
+#essentially the same thing
+#extra2    
+print("multiples checker, enter smaller number first")
+num=int(input( ))
+chk=int(input( ))
+M3=chk/num
+M4=chk//num
+O=str(M4)
+if M3==M4:
+    print("is a multiple "+O)
+else:
+    print("not a multiple")    
